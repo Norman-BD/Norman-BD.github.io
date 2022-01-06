@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mohamed Iza Lim Jing Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Mohamed Iza Lim Jing<br />
+						Portfolio</h1>
+						<p>A list of my data analysis projects, in the form of Jupyter Notebooks. All notebooks are available fully open sourced on GitHub.  <a href="https://github.com/Norman-BD">@GitHub</a> 
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">University Putra Malaysia</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Portfolio</a></li>
+							<li><a href="generic.html">About</a></li>
+							<li><a href="elements.html">Contact</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/Norman-BD" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="https://github.com/Norman-BD">Portfolio<br />
+									</a></h2>
+									<p>Thank you for viewing my portfolio. This are the projects that I demonstrate my skills and abilities to get insights out of data. Credit to : S.Kalanithi ; H.Boddapu ; G.Atkin ; K.Alex. </p>
+								</header>
+								<ul class="actions special">
+									<li><a href="https://github.com/Norman-BD" class="button large">My GitHub Profile</a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="https://github.com/Norman-BD/WeatherForecast-/blob/main/weather-forecast.ipynb">Project 1<br />
+									    Weather Forecast</a></h2>
+									</header>
+									<a href="https://github.com/Norman-BD/WeatherForecast-/blob/main/weather-forecast.ipynb" class="image fit"><img src="images/__results___32_0.jpg" alt="" /></a>
+									<p>Weather has a great impact in the agriculture industry where crops need the basics of moisture, warmth, and sun to growth. Weather information will effect farmer’s business decisions, plan efficiently, minimize costs and maximize the production of yields .
+                                        <br />
+										<br />
+										In this project, I used scikit-learn to train the model and matplotlib to visualize the result
+										<br />
+										* I preprocess the data to make sure that every data will be the correct format to fit the training model.
+										<br />
+										* To train the model, I use a batch size = 32 and epochs = 6 with relu activation fuction.
+										<br />
+										* The graph have shown the training and the validation acuracy was going down where the training data was underfitting.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Norman-BD/WeatherForecast-/blob/main/weather-forecast.ipynb" class="button">View my Code in GitHub</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/Norman-BD/Merket_Price_Prediction-/blob/main/VegetablesMarket.ipynb">Project 2<br />
+										Vegetable Market Price Prediction</a></h2>
+									</header>
+									<a href="https://github.com/Norman-BD/Merket_Price_Prediction-/blob/main/VegetablesMarket.ipynb" class="image fit"><img src="images/Screenshot (536).jpg" alt="" /></a>
+									<p>Price volatility is an unexpected price fluctuations that are so large and rapid that it becomes impossible to make expectations where the farmer might produces less and postpones their production. Therefore, it is important to analyze the market based on its characteristics and current market trends
+                                        <br />
+										<br />
+										In this project, I used 13 libraries such as sklearn, xgboost, lightgbm and catboost to train the model.
+										<br />
+										* I start preprocessing the data by using binary encoding to make sure all the float data convert to binary number ( 0 & 1 )
+										<br />
+										* Use one-hot encoding to transform the categorical data to be integer data (more expressive) to train the model
+										<br />
+										* Split the data to X and Y to train the model ( X = Vegetable Price , Y = Other data ) , use 70% of the datasets to train the model and 30% to test the model.
+										<br />
+										
+										The result showed XGBoost have the best performance. However due to low number of testing sample (37 sets), it might effect the performance of other agorithms in this model.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Norman-BD/Merket_Price_Prediction-/blob/main/VegetablesMarket.ipynb" class="button">View my Code in GitHub</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/Norman-BD/Supply_Chain_Shipment-/blob/main/supply-chain-shipment-recommend.ipynb">Project 3<br />
+										Supply Chain Shipment Prediction</a></h2>
+									</header>
+									<a href="https://github.com/Norman-BD/Supply_Chain_Shipment-/blob/main/supply-chain-shipment-recommend.ipynb" class="image fit"><img src="images/__results___15_1.jpg" alt="" /></a>
+									<p>Choosing a right shipment for supply chain is important as it avoid any delay in production. Even in agribusiness industry,the timing is an important parameter in the case of agriculture crops were taken under formulation.
+                                        <br />
+										<br />
+										In this project, I used neuron network from scikit-learn library to train the model and use confusssion matrik to plot the result.
+										<br />
+										* Preprocesasing the datasets to be an understandable format for a machine to training
+										<br />
+										* Convert "Air", "Truck", "Air Chater", "Ocean" to numberic value
+										<br />
+										* Use one-hot encoding to rescale the data
+										<br />
+										* Slpit the pre-processed datasets to X and Y
+										<br />
+										* Train the model with batch_size=32 and epochs=100
+										<br />
+										
+										
+										The confusion matrix graph shows the result of the model.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Norman-BD/Supply_Chain_Shipment-/blob/main/supply-chain-shipment-recommend.ipynb" class="button">View my Code in GitHub</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/Norman-BD/DataTransformation/blob/main/DataTransformation.ipynb">Project 4<br />
+										Data Transformation</a></h2>
+									</header>
+									<a href="https://github.com/Norman-BD/DataTransformation/blob/main/DataTransformation.ipynb" class="image fit"><img src="images/Screenshot (531).jpg" alt="" /></a>
+									<p>When dealing with large amount of data, a well-organized data will be well processed by machine. Properly formatted and validated data improves data quality and protects applications from potential landmines such as null values, unexpected duplicates, incorrect indexing, and incompatible formats.
+                                        <br />
+										<br />
+										In this project, I used pandas library from Python to transform the data that makes it easier to manage and use a variety of data.
+										<br />
+										* The raw datasets was horizontal before transforming, which will be not adequate for linear models
+										<br />
+										* Transform the format of datasets to be vertical form
+										<br />
+										* Dataset before transforming : <a href="https://github.com/Norman-BD/DataTransformation/blob/main/DataTransformation.xlsx">@Horizontal Dataset</a> 
+										<br />
+										* Dataset after transforming  : <a href="https://github.com/Norman-BD/DataTransformation/blob/main/DataTransformation_output.xlsx">@Vertical Dataset</a> 
+										<br />
+									
+										The output of the dataset were verticalized</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Norman-BD/DataTransformation/blob/main/DataTransformation.ipynb" class="button">View my Code in GitHub</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Project 5<br />
+										Inventory Management Dashboard</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/Inventory Management Dashboard V1_page-0001.jpg" alt="" /></a>
+									<p>A dashboard offers business better visibility to effectively manage stock, maintain optimal inventory levels, and optimize inventory turn in real-time. It makes agricultural production pattern accessible to the detail of agricultural parcel and farmer.
+                                        <br />
+										<br />
+										In this project, I create a dashboard for Inventory Management using PowerBI. There were some chart that displayed on the dashboard interface :
+										<br />
+										* ABC Classification : Categories based on cost per unit and quantity of stock
+										<br />
+										* XYZ Classification : Classified with the demand variation
+										<br />
+										* Inventory Turnover Ratio : The ratio of inventories were sold and replaced
+										<br />
+										* Reorder Level : The point that optimize business inventory
+										<br />
+										* Stock Status : Displayed the stock level
+										<br />
+										<br />
+										""Dashboard unable to publish to web as my account does not able to embed code creation.""
+										</p>
+									<ul class="actions special">
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/Norman-BD/Netflix_EDA/blob/main/NetflixDatasets_EDA.ipynb">Project 6<br />
+										Exploratory Data Analysis</a></h2>
+									</header>
+									<a href="https://github.com/Norman-BD/Netflix_EDA/blob/main/NetflixDatasets_EDA.ipynb" class="image fit"><img src="images/newplot.jpg" alt="" /></a>
+									<p>An Exploratory Data Analysis 'EDA' is a technique to discover the underlying structure of a data set and it allows business to exposes trends, patterns, and relationships that are not readily apparent from the datasets.
+                                        <br />
+										<br />
+										In this project, I used Plotly Express library to plot all the possible insight from the dataset
+										<br />
+										* I restructured the data so that it able to plot the way that illustrate relationships in the data
+										<br />
+										<br />
+										
+										The table shown were the graph that initial state with month and date of the year.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Norman-BD/Netflix_EDA/blob/main/NetflixDatasets_EDA.ipynb" class="button">View my Code in GitHub</a></li>
+									</ul>
+								</article>
+								<article>
+								   <header>
+									   <h2><a href="https://github.com/Norman-BD/Car_PCA/blob/main/Car_PCA.ipynb">Project 7<br />
+										Principal Component Analysis</a></h2>
+								    </header>
+								    <a href="https://github.com/Norman-BD/Car_PCA/blob/main/Car_PCA.ipynb" class="image fit"><img src="images/1_GbZk-YBb6NG5IcbjphLvAA.jpg" alt="" /></a>
+								    <p>A Principal Component Analysis 'PCA' interpret data that might find important patterns from the dataset as it simplifies the complexity in high-dimensional data while retaining trends and patterns.
+
+										<br />
+										<br />
+										In this project, I compress the dimensional of the data so that it able to find new variables in the linear function
+										<br />
+										* Preprocess the data
+										<br />
+										* Using standard scaler function from sklearn to remove the mean and scaling to unit variance</p>
+								    <ul class="actions special">
+									 <li><a href="https://github.com/Norman-BD/Car_PCA/blob/main/Car_PCA.ipynb" class="button">View my Code in GitHub</a></li>
+								    </ul>
+							    </article>
+						        </section>
+						
+					
+
+				
+				            <section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Kolej 12 UPM
+									<br />
+									Jalan Maklumat, 43400 Serdang, Selangor</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p> +6016-2655808</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p> 196265@student.upm.edu.my</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://github.com/Norman-BD" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
